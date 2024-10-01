@@ -1,0 +1,33 @@
+{
+  "name": "devdash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/register": "^7.16.0",
+    "@use-it/interval": "^1.0.0",
+    "blessed": "^0.1.81",
+    "chalk": "^2.4.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^1.2.0",
+    "react": "^17.0.2",
+    "react-blessed": "^0.7.2",
+    "stop-runaway-react-effects": "^2.0.0",
+    "use-deep-compare-effect": "^1.8.1",
+    "weather-js": "^2.0.0"
+  }
+}
